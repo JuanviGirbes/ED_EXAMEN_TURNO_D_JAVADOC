@@ -1,3 +1,4 @@
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -52,6 +53,7 @@ FACTOR_HORA_EXTRA;
  System.out.println("El salario de " + emp.nombreCompleto + " este mes
  será de " + emp.getSalarioEsteMes(horasExtra)
  + " euros, al hacer " + horasExtra + " horas extra.");
+ 
  }
     
 }
