@@ -50,9 +50,7 @@ FACTOR_HORA_EXTRA;
  juanvi_girbes_20837208j emp = new juanvi_girbes_20837208j("JUANVI GIRBES",
 "20837208J");
  int horasExtra = 2;
- System.out.println("El salario de " + emp.nombreCompleto + " este mes
- será de " + emp.getSalarioEsteMes(horasExtra)
- + " euros, al hacer " + horasExtra + " horas extra.");
+ System.out.println("El salario de " + emp.nombreCompleto + " este mes será de " + emp.getSalarioEsteMes(horasExtra) + " euros, al hacer " + horasExtra + " horas extra.");
  
  }
     
