@@ -4,8 +4,15 @@
  */
 
 /**
- *
- * @author Juanvi
+ * @tittle EJERCICIO PRÁCTICO EXAMEN EVAL 1 ED
+ * @author Juanvi Girbes 20837208J
+ * @version 1.0
+ */
+
+/**
+ * Constructor con tres parámetros
+ * JUAN VICENTE GIRBES ALVENTOSA
+ * 20837208J
  */
 public class juanvi_girbes_20837208j {
     static final double FACTOR_HORA_EXTRA = 1.2;
@@ -15,6 +22,15 @@ public class juanvi_girbes_20837208j {
  this.nombreCompleto = nombreCompleto;
  this.dni = dni;
  }
+ /**
+  * Calcula el salario bruto mensual enf unción del salario base por hora y las
+  * horas extras.
+  * El precio por hora de la hora extra se determina con la constante 
+  * FACTOR_HORA_EXTRA
+  * @param horasExtra Número de horas extra dedicadas redondeado a la baja
+  * (entero)
+  * @return Devuelve el salario bruto mensual en euros con dos decimales
+  */
  public double getSalarioEsteMes(int horasExtra) {
  double cantidadExtra, salarioFinal;
  cantidadExtra = horasExtra * this.salarioBasePorHora *
@@ -23,6 +39,10 @@ FACTOR_HORA_EXTRA;
  salarioFinal=(double)Math.round(salarioFinal * 100d) / 100d;
  return salarioFinal;
  }
+ /**
+  * 
+  * @param args 
+  */
 
  // Este método no lo comentaremos con JavaDoc
  public static void main(String[] args) {
